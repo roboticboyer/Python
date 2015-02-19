@@ -80,7 +80,7 @@ def Connessione_on():
 	# Apre connesione seriale con ESP
 	global conn
 	global con_status
-	items = ("/dev/ttyUSB0","/dev/ttyASM0","/dev/ttyASM1")
+	items = ("/dev/ttyUSB0","/dev/ttyUSB0","/dev/ttyACM0","/dev/ttyACM1")
 	A_ser_port, ok = QtGui.QInputDialog.getItem(window_a, "QInputDialog.getItem()","USB Port:", items, 0, False)
 	#print A_ser_port
 	try:
