@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Converti Link by Robotic Boyer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="B_quit">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>510</y>
+      <width>87</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B_01">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>510</y>
+      <width>87</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="T_log">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>761</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B_file">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>20</y>
+      <width>87</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apri File</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="T_file">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>651</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
